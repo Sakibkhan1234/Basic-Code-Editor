@@ -1,0 +1,56 @@
+.code-editor {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    font-family: monospace;
+    font-size: 14px;
+    resize: vertical;
+  }
+  
+  .buttons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 20%;
+  }
+  
+  #copyButton{
+    width: 20%;
+    padding: 1.5%;
+    border-radius: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid black;
+  }
+  #saveButton{
+    width: 20%;
+    border-radius: 15px;
+    background-color: #27ae60;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    border: 1px solid black;
+  }
+  #lockButton{
+    width: 20%;
+    border-radius: 15px;
+    background-color:red;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid black;
+  }
+  #editor{
+    border: 5px solid yellow;
+    background-color: black;
+    color: #ccc;
+    font-weight: bold;
+    font-size: larger;
+  }
+
